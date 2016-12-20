@@ -1,6 +1,14 @@
 # hadoop-task
 A home task in hadoop
 
+# Run instructions
+
+To run it, run the .jar file in the 'target' folder like so:
+
+hadoop jar yotpoIdoTask-0.0.1-SNAPSHOT.jar similarSites.SiteSimDriver 'input path' 'output path1' output path2' 'output path3'
+
+The three output paths are for the three different stages of map reduce. The third output is where the final output will be, after secondary sort.
+
 # Task description
 
 Requirements:
